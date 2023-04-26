@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page2-contents">
+
+    <br>
+    <div class="box">
+        <h2>Product Details</h2>
+        <img src="product.jpg" alt="">
+        <p>₱1000.00</p>
+
+   
+        <p>Shipping To: Cagayande Oro City</p>
+
+        <p> Shipping Fee: ₱50.00</p>
+
+        <p>Stocks: 10</p>
+        <p style="font-weight: bold;">Quantity: <span id="quantity">1</span></p>
+        <button onclick="descQuantity()">-</button>
+        <button onclick="addQuantity()">+</button>
+        
+
+        
+    </div>
+    <div class="box2">
+        <h2>Ready To Checkout?</h2>
+        
+
+        <p>Subtotal: <span id="subtotal">₱1000.00</span></p>
+
+        <p>QTY: <span id="quantity1">1</span></p>
+
+        <p>Shipping Fee: ₱50.00</p>
+        <p>Total: <span id="total"></span></p>
+
+       
+        <button onClick="window.location.href='checkout.html';" type="button"><span></span>CHECKOUT</button>
+
+    </div>
+
+    
+    <script src="test.js"></script>
+
+    </div>
+    
+</body>
+</html>
