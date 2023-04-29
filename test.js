@@ -46,3 +46,13 @@ function descQuantity() {
     
 }
 
+
+function checkout() {
+    let checkQty = quantity;
+    let checkTotal = total + 50;
+
+    document.getElementById('quantityf').innerHTML = checkQty;
+    document.getElementById('totalf').innerHTML = "₱" + ((quantity * 1000) + 50).toFixed(2);
+    document.getElementById('box3').style.display = '';
+    document.getElementById('page2').style.display = 'none';
+}

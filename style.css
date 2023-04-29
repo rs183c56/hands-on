@@ -19,10 +19,7 @@ button{
     overflow: hidden;
 }
 
-/* .p{
-    font-weight: bold;
-    text-align: justify;
-} */
+
 .page2-contents{
     display: flex;
     flex-direction: row;
@@ -47,3 +44,16 @@ button{
     box-shadow: 0 0 10px rgba(92, 89, 89, 0.3);
     width: 21%;
   }
+
+  /* BOX SA CHECKOUT */
+  .box3 {
+
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(92, 89, 89, 0.3);
+    display: none;
+  }
+ 

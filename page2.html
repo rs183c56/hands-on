@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page2-contents">
+    <div class="page2-contents" id="page2">
 
     <br>
     <div class="box">
@@ -38,17 +38,28 @@
         <p>QTY: <span id="quantity1">1</span></p>
 
         <p>Shipping Fee: ₱50.00</p>
-        <p>Total: <span id="total"></span></p>
+        <p>Total: <span id="total">₱1050.00</span></p>
 
        
-        <button onClick="window.location.href='checkout.html';" type="button"><span></span>CHECKOUT</button>
+        <button onclick="checkout()" type="button"><span></span>CHECKOUT</button>
 
     </div>
+    </div>
 
-    
+    <div class="box3" id="box3">
+        <h2>YOUR ORDER</h2>
+        <img src="product.jpg" alt="">
+        <p style="font-weight: bold;"> MEN'S SUIT</p>
+        <p style="font-weight: bold;"> ₱1000.00</p>
+        <p>QTY: <span id="quantityf">1</span></p>
+        <p>Shipping Fee: ₱50.00</p>
+        <p>Total: <span id="checkTotal"> ₱1050.00</span></p>
+        <button onclick="">BUY NOW</button>
+    </div>
+ 
     <script src="test.js"></script>
 
-    </div>
+    
     
 </body>
 </html>
