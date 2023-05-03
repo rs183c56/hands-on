@@ -48,8 +48,11 @@ function descQuantity() {
 
 
 function checkout() {
+    document.getElementById("box3").style.display = "block";
+    document.getElementById("page2").style.display = "none";
+
     let checkQty = quantity;
-    let checkTotal = total + 50;
+    // let checkTotal = total + 50;
 
     document.getElementById('quantityf').innerHTML = checkQty;
     document.getElementById('totalf').innerHTML = "₱" + ((quantity * 1000) + 50).toFixed(2);

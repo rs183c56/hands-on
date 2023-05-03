@@ -25,6 +25,7 @@ button{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+    
 }
 .box {
 
@@ -37,8 +38,9 @@ button{
   }
   .box2 {
     max-width: 550px;
+   
     margin: 0 auto;
-    padding: 10px;
+    padding: 60px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(92, 89, 89, 0.3);
